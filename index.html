@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Primary SEO -->
+    <title>Nujooth ❤ Manal Love Journey (Since 2025-12-25)</title>
+    <meta
+      name="description"
+      content="Nujooth and Manal's love journey since 2025-12-25 (5:30 PM) — live love duration, next anniversary countdown, and birthday countdowns."
+    />
+    <meta
+      name="keywords"
+      content="Nujooth,Manal,Nujooth and Manal,love journey,love story,relationship journey,anniversary countdown,birthday countdown,since 2025-12-25"
+    />
+    <meta
+      name="robots"
+      content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+    />
+    <meta name="author" content="Nujooth & Manal" />
+    <meta name="theme-color" content="#0b1020" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+    <link rel="canonical" href="https://mohamed-umair01.github.io/" />
+
+    <!-- Open Graph -->
+    <meta property="og:site_name" content="Nujooth ❤ Manal Love Journey" />
+    <meta property="og:title" content="Nujooth ❤ Manal Love Journey (Since 2025-12-25)" />
+    <meta
+      property="og:description"
+      content="Track Nujooth and Manal's love duration, next anniversary countdown, and birthdays — since 2025-12-25 (5:30 PM)."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://mohamed-umair01.github.io/" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/AATHILDUCKY/ethical-hacking-short-notes/main/aathil%20ducky.png"
+    />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Nujooth ❤ Manal Love Journey (Since 2025-12-25)" />
+    <meta
+      name="twitter:description"
+      content="Nujooth and Manal's love journey since 2025-12-25 (5:30 PM) — duration + next anniversary + birthdays."
+    />
+    <meta
+      name="twitter:image"
+      content="https://raw.githubusercontent.com/AATHILDUCKY/ethical-hacking-short-notes/main/aathil%20ducky.png"
+    />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Tailwind CDN (v3) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              display: ["Playfair Display", "serif"],
+              sans: ["Poppins", "ui-sans-serif", "system-ui"],
+            },
+            boxShadow: {
+              glow: "0 10px 30px rgba(236,72,153,0.25)",
+              glow2: "0 0 0 1px rgba(255,255,255,0.08), 0 10px 40px rgba(0,0,0,0.35)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Animate.css + AOS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"></script>
+
+    <style>
+      .bg-aurora {
+        background: radial-gradient(1200px 800px at 10% 10%, rgba(251, 113, 133, 0.18), transparent 55%),
+          radial-gradient(1000px 700px at 90% 20%, rgba(99, 102, 241, 0.22), transparent 55%),
+          radial-gradient(900px 700px at 30% 90%, rgba(34, 211, 238, 0.10), transparent 55%),
+          linear-gradient(180deg, #070a16 0%, #0b1020 35%, #060813 100%);
+      }
+
+      .noise::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        z-index: 0;
+        opacity: 0.08;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)' opacity='.35'/%3E%3C/svg%3E");
+      }
+
+      .love-card {
+        background: rgba(255, 255, 255, 0.07);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        transform: translateZ(0);
+        transition: transform 250ms ease, box-shadow 250ms ease;
+        will-change: transform;
+      }
+      .love-card:hover {
+        box-shadow: 0 16px 30px rgba(236, 72, 153, 0.22);
+        transform: translateY(-6px);
+      }
+
+      .highlight { color: #fb7185; font-weight: 700; }
+      .heart { color: #fb7185; }
+
+      .shine { position: relative; overflow: hidden; }
+      .shine::after {
+        content: "";
+        position: absolute;
+        top: -20%;
+        left: -70%;
+        width: 45%;
+        height: 170%;
+        background: linear-gradient(120deg, transparent, rgba(255, 255, 255, 0.13), transparent);
+        transform: rotate(18deg);
+        transition: left 650ms ease;
+      }
+      .shine:hover::after { left: 140%; }
+
+      .hearts-layer {
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        overflow: hidden;
+        z-index: 0;
+      }
+      .heart-float {
+        position: absolute;
+        opacity: 0.18;
+        filter: drop-shadow(0 8px 14px rgba(251, 113, 133, 0.20));
+        animation: floatUp linear infinite;
+      }
+      @keyframes floatUp {
+        from { transform: translateY(18vh) scale(0.9) rotate(0deg); }
+        to   { transform: translateY(-120vh) scale(1.25) rotate(18deg); }
+      }
+
+      .blob {
+        position: absolute;
+        border-radius: 9999px;
+        filter: blur(42px);
+        opacity: 0.22;
+        animation: blobMove 14s ease-in-out infinite alternate;
+      }
+      @keyframes blobMove {
+        from { transform: translate3d(0, 0, 0) scale(1); }
+        to   { transform: translate3d(42px, -32px, 0) scale(1.08); }
+      }
+
+      /* Tap burst hearts */
+      .tap-heart {
+        position: fixed;
+        z-index: 80;
+        pointer-events: none;
+        font-size: 18px;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0.85);
+        filter: drop-shadow(0 10px 20px rgba(251, 113, 133, 0.25));
+      }
+
+      /* Ripple ring */
+      .tap-ring {
+        position: fixed;
+        z-index: 75;
+        pointer-events: none;
+        left: 0;
+        top: 0;
+        width: 18px;
+        height: 18px;
+        border-radius: 9999px;
+        transform: translate(-50%, -50%);
+        border: 2px solid rgba(251, 113, 133, 0.65);
+        box-shadow: 0 0 0 1px rgba(255,255,255,0.08), 0 20px 60px rgba(251,113,133,0.18);
+        opacity: 0;
+      }
+
+      /* Popup at tap location */
+      .love-popup {
+        position: fixed;
+        z-index: 90;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -115%);
+        padding: 12px 14px;
+        border-radius: 18px;
+        background: rgba(255, 255, 255, 0.10);
+        border: 1px solid rgba(255, 255, 255, 0.18);
+        backdrop-filter: blur(14px);
+        -webkit-backdrop-filter: blur(14px);
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+        opacity: 0;
+        pointer-events: none;
+        min-width: 240px;
+      }
+      .love-popup::after {
+        content: "";
+        position: absolute;
+        left: 22px;
+        bottom: -8px;
+        width: 14px;
+        height: 14px;
+        background: rgba(255, 255, 255, 0.10);
+        border-right: 1px solid rgba(255, 255, 255, 0.18);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.18);
+        transform: rotate(45deg);
+        backdrop-filter: blur(14px);
+      }
+
+      /* Bottom-right tiny clock */
+      .mini-clock {
+        position: fixed;
+        right: 10px;
+        bottom: 10px;
+        z-index: 95;
+        pointer-events: none;
+        font-size: 10px;
+        line-height: 1.1;
+        padding: 6px 8px;
+        border-radius: 12px;
+        background: rgba(255, 255, 255, 0.08);
+        border: 1px solid rgba(255, 255, 255, 0.14);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        color: rgba(255, 255, 255, 0.82);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+        letter-spacing: 0.2px;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        .heart-float, .blob, .love-card, .shine::after { animation: none !important; transition: none !important; }
+      }
+    </style>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://mohamed-umair01.github.io/#website",
+            "url": "https://mohamed-umair01.github.io/",
+            "name": "Nujooth ❤ Manal Love Journey",
+            "inLanguage": "en"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://mohamed-umair01.github.io/#webpage",
+            "url": "https://mohamed-umair01.github.io/",
+            "name": "Nujooth ❤ Manal Love Journey (Since 2025-12-25)",
+            "description": "Nujooth and Manal's love journey since 2025-12-25 (5:30 PM) — love duration, next anniversary countdown, and birthday countdowns.",
+            "isPartOf": { "@id": "https://mohamed-umair01.github.io/#website" },
+            "inLanguage": "en",
+            "about": [
+              { "@type": "Person", "name": "Nujooth", "birthDate": "2000-06-26" },
+              { "@type": "Person", "name": "Manal", "birthDate": "2005-12-27" }
+            ]
+          }
+        ]
+      }
+    </script>
+  </head>
+
+  <body class="bg-aurora noise text-white min-h-screen font-sans">
+    <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+    <!-- Bottom-right current time (small) -->
+    <div class="mini-clock" aria-hidden="true">
+      <div id="clockTime">00:00:00</div>
+      <div id="clockDate" style="opacity:.75">0000-00-00</div>
+    </div>
+
+    <div class="relative z-10">
+      <main class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-10">
+        <div class="flex items-center justify-between gap-4 mb-10">
+          <div class="flex items-center gap-3">
+            <div
+              class="h-10 w-10 rounded-2xl bg-white/10 border border-white/15 flex items-center justify-center shadow-glow2"
+            >
+              <span class="text-xl">❤</span>
+            </div>
+            <div>
+              <p class="text-xs text-white/70">Nujooth & Manal</p>
+              <p class="text-sm font-medium text-white/90">Love Journey</p>
+            </div>
+          </div>
+
+          <div class="hidden sm:flex items-center gap-2 text-xs text-white/70">
+            <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-2">
+              <span class="h-2 w-2 rounded-full bg-rose-400 animate-pulse"></span>
+              Live counter
+            </span>
+            <span class="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-2">
+              👆 Tap x3 fast for surprise
+            </span>
+          </div>
+        </div>
+
+        <header class="text-center mb-12">
+          <h1 class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight">
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-rose-300 via-pink-200 to-indigo-200">Nujooth</span>
+            <span class="heart animate__animated animate__heartBeat animate__infinite mx-2" aria-hidden="true">❤</span>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-200 via-pink-200 to-rose-300">Manal</span>
+          </h1>
+
+          <p class="mt-3 text-base sm:text-lg text-rose-200/90">
+            Our Love Journey Since <span class="highlight">2025.12.25</span> — Committed at <span class="highlight">5:30 PM</span>
+          </p>
+
+          <p class="mt-6 text-sm sm:text-base text-white/75 max-w-2xl mx-auto leading-relaxed">
+            A love counter page for <span class="highlight">Nujooth</span> and <span class="highlight">Manal</span>.
+            Live timers, smooth animations, and a surprise that appears right where you tap.
+          </p>
+        </header>
+
+        <section aria-label="Love Journey Cards">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2" data-aos="fade-up" data-aos-delay="0">
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-semibold">Our Love Duration</h2>
+                <span class="text-xs text-white/70 bg-white/5 border border-white/10 rounded-full px-3 py-1">Since 2025</span>
+              </div>
+              <div class="mt-4 grid grid-cols-2 gap-4">
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Years</p>
+                  <p class="text-3xl font-bold highlight" id="love-years">0</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Days</p>
+                  <p class="text-3xl font-bold highlight" id="love-days">0</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Hours</p>
+                  <p class="text-2xl font-bold highlight" id="love-hours">00</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Min : Sec</p>
+                  <p class="text-2xl font-bold highlight">
+                    <span id="love-minutes">00</span> : <span id="love-seconds">00</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2" data-aos="fade-up" data-aos-delay="100">
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-semibold">Next Anniversary</h2>
+                <span class="text-xs text-white/70 bg-white/5 border border-white/10 rounded-full px-3 py-1">Dec 25 • 5:30 PM</span>
+              </div>
+              <div class="mt-4 grid grid-cols-2 gap-4">
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Days</p>
+                  <p class="text-3xl font-bold highlight" id="anniv-days">0</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Hours</p>
+                  <p class="text-3xl font-bold highlight" id="anniv-hours">00</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Minutes</p>
+                  <p class="text-3xl font-bold highlight" id="anniv-minutes">00</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                  <p class="text-xs text-white/70">Seconds</p>
+                  <p class="text-3xl font-bold highlight" id="anniv-seconds">00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2" data-aos="fade-up" data-aos-delay="200">
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-semibold">Nujooth's Birthday</h2>
+                <span class="text-xs text-white/70 bg-white/5 border border-white/10 rounded-full px-3 py-1">Jun 26</span>
+              </div>
+              <p class="text-sm text-white/75">June 26 (2000)</p>
+              <div class="mt-4 grid grid-cols-3 gap-3">
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Days</p>
+                  <p class="text-2xl font-bold highlight" id="nujooth-days">0</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Hours</p>
+                  <p class="text-2xl font-bold highlight" id="nujooth-hours">00</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Minutes</p>
+                  <p class="text-2xl font-bold highlight" id="nujooth-minutes">00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2" data-aos="fade-up" data-aos-delay="0">
+              <div class="flex items-center justify-between mb-3">
+                <h2 class="text-xl font-semibold">Manal's Birthday</h2>
+                <span class="text-xs text-white/70 bg-white/5 border border-white/10 rounded-full px-3 py-1">Dec 27</span>
+              </div>
+              <p class="text-sm text-white/75">December 27 (2005)</p>
+              <div class="mt-4 grid grid-cols-3 gap-3">
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Days</p>
+                  <p class="text-2xl font-bold highlight" id="manal-days">0</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Hours</p>
+                  <p class="text-2xl font-bold highlight" id="manal-hours">00</p>
+                </div>
+                <div class="rounded-xl bg-white/5 border border-white/10 p-4 text-center">
+                  <p class="text-xs text-white/70">Minutes</p>
+                  <p class="text-2xl font-bold highlight" id="manal-minutes">00</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2" data-aos="fade-up" data-aos-delay="100">
+              <h2 class="text-xl font-semibold mb-3">Special Date</h2>
+              <div class="rounded-xl bg-white/5 border border-white/10 p-4">
+                <p class="text-sm text-white/75">Committed</p>
+                <p class="text-lg font-bold highlight">December 25, 2025</p>
+                <p class="mt-3 text-sm text-white/75">Time</p>
+                <p class="text-lg font-bold highlight">5:30 PM</p>
+              </div>
+            </div>
+
+            <div class="love-card shine tilt rounded-2xl p-6 shadow-glow2 flex items-center justify-center" data-aos="zoom-in" data-aos-delay="200">
+              <div class="text-center">
+                <p class="font-display text-2xl sm:text-3xl">Every moment with you is special</p>
+                <p class="mt-2 text-white/75 text-sm">Nujooth ❤ Manal</p>
+                <div class="mt-4 inline-flex items-center justify-center h-14 w-14 rounded-2xl bg-white/7 border border-white/12 shadow-glow">
+                  <span class="text-3xl animate__animated animate__pulse animate__infinite" aria-hidden="true">❤</span>
+                </div>
+                <p class="mt-4 text-xs text-white/60">Tap 3 times quickly 💗</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="text-center text-white/60 mt-12">
+          <p class="text-sm">Created with love by Nujooth & Manal</p>
+        </footer>
+      </main>
+    </div>
+
+    <!-- Popup (moves to your tap position) -->
+    <div id="lovePopup" class="love-popup" role="status" aria-live="polite">
+      <div class="flex items-center gap-3">
+        <div class="h-10 w-10 rounded-2xl bg-white/10 border border-white/15 flex items-center justify-center">
+          <span class="text-xl">❤</span>
+        </div>
+        <div>
+          <p class="text-white font-semibold leading-tight">I love you Manal ❤️</p>
+          <p class="text-xs text-white/70">Always & forever</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Ring highlight -->
+    <div id="tapRing" class="tap-ring" aria-hidden="true"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+
+    <script>
+      // =======================================================
+      // Counters (Leap-Year-Safe)
+      // =======================================================
+      const LOVE_START = new Date(2025, 11, 25, 17, 30, 0); // 2025-12-25 5:30 PM (local)
+      const NUJOOTH_DOB = { year: 2000, month: 6, day: 26 }; // 2000-06-26
+      const MANAL_DOB = { year: 2005, month: 12, day: 27 }; // 2005-12-27
+      const MS = { sec: 1000, min: 60000, hour: 3600000, day: 86400000 };
+
+      function pad2(n) { return String(n).padStart(2, "0"); }
+      function setText(id, value) { const el = document.getElementById(id); if (el) el.textContent = String(value); }
+
+      function makeClampedDate(year, monthIndex, day, hour = 0, minute = 0, second = 0) {
+        let d = new Date(year, monthIndex, day, hour, minute, second);
+        if (d.getMonth() !== monthIndex) d = new Date(year, monthIndex + 1, 0, hour, minute, second);
+        return d;
+      }
+
+      function fullYearsSince(start, now) {
+        let years = now.getFullYear() - start.getFullYear();
+        const anniversaryThisYear = makeClampedDate(
+          now.getFullYear(),
+          start.getMonth(),
+          start.getDate(),
+          start.getHours(),
+          start.getMinutes(),
+          start.getSeconds()
+        );
+        if (now < anniversaryThisYear) years--;
+        return Math.max(0, years);
+      }
+
+      function breakdownMs(diffMs) {
+        const total = Math.max(0, diffMs);
+        const days = Math.floor(total / MS.day);
+        const remAfterDays = total % MS.day;
+        const hours = Math.floor(remAfterDays / MS.hour);
+        const remAfterHours = remAfterDays % MS.hour;
+        const minutes = Math.floor(remAfterHours / MS.min);
+        const remAfterMinutes = remAfterHours % MS.min;
+        const seconds = Math.floor(remAfterMinutes / MS.sec);
+        return { days, hours, minutes, seconds };
+      }
+
+      function nextYearlyOccurrence(templateDate, now) {
+        const candidate = makeClampedDate(
+          now.getFullYear(),
+          templateDate.getMonth(),
+          templateDate.getDate(),
+          templateDate.getHours(),
+          templateDate.getMinutes(),
+          templateDate.getSeconds()
+        );
+        if (now < candidate) return candidate;
+        return makeClampedDate(
+          now.getFullYear() + 1,
+          templateDate.getMonth(),
+          templateDate.getDate(),
+          templateDate.getHours(),
+          templateDate.getMinutes(),
+          templateDate.getSeconds()
+        );
+      }
+
+      function nextBirthday(month1to12, day, now) {
+        const monthIndex = month1to12 - 1;
+        const candidate = makeClampedDate(now.getFullYear(), monthIndex, day, 0, 0, 0);
+        if (now < candidate) return candidate;
+        return makeClampedDate(now.getFullYear() + 1, monthIndex, day, 0, 0, 0);
+      }
+
+      function updateLoveDuration(now) {
+        const diffMs = now.getTime() - LOVE_START.getTime();
+        const years = fullYearsSince(LOVE_START, now);
+        const parts = breakdownMs(diffMs);
+
+        setText("love-years", years);
+        setText("love-days", parts.days);
+        setText("love-hours", pad2(parts.hours));
+        setText("love-minutes", pad2(parts.minutes));
+        setText("love-seconds", pad2(parts.seconds));
+      }
+
+      function updateNextAnniversary(now) {
+        const nextAnniv = nextYearlyOccurrence(LOVE_START, now);
+        const parts = breakdownMs(nextAnniv.getTime() - now.getTime());
+
+        setText("anniv-days", parts.days);
+        setText("anniv-hours", pad2(parts.hours));
+        setText("anniv-minutes", pad2(parts.minutes));
+        setText("anniv-seconds", pad2(parts.seconds));
+      }
+
+      function updateBirthdayCountdown(now, month1to12, day, prefix) {
+        const next = nextBirthday(month1to12, day, now);
+        const parts = breakdownMs(next.getTime() - now.getTime());
+
+        setText(`${prefix}-days`, parts.days);
+        setText(`${prefix}-hours`, pad2(parts.hours));
+        setText(`${prefix}-minutes`, pad2(parts.minutes));
+      }
+
+      function formatTime(d) {
+        const hh = String(d.getHours()).padStart(2, "0");
+        const mm = String(d.getMinutes()).padStart(2, "0");
+        const ss = String(d.getSeconds()).padStart(2, "0");
+        return `${hh}:${mm}:${ss}`;
+      }
+      function formatDate(d) {
+        const yy = d.getFullYear();
+        const mo = String(d.getMonth() + 1).padStart(2, "0");
+        const da = String(d.getDate()).padStart(2, "0");
+        return `${yy}-${mo}-${da}`;
+      }
+      function updateClock(now) {
+        const t = document.getElementById("clockTime");
+        const dt = document.getElementById("clockDate");
+        if (t) t.textContent = formatTime(now);
+        if (dt) dt.textContent = formatDate(now);
+      }
+
+      function tick() {
+        const now = new Date();
+        updateLoveDuration(now);
+        updateNextAnniversary(now);
+        updateBirthdayCountdown(now, NUJOOTH_DOB.month, NUJOOTH_DOB.day, "nujooth");
+        updateBirthdayCountdown(now, MANAL_DOB.month, MANAL_DOB.day, "manal");
+        updateClock(now);
+      }
+
+      // =======================
+      // Animations + UI polish
+      // =======================
+      function initAOS() {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        AOS.init({ duration: 750, easing: "ease-out-cubic", once: true, offset: 60 });
+      }
+
+      function initGSAP() {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        gsap.from("header h1", { y: 18, opacity: 0, duration: 0.9, ease: "power3.out" });
+        gsap.from("header p", { y: 10, opacity: 0, duration: 0.8, delay: 0.15, ease: "power3.out", stagger: 0.06 });
+      }
+
+      function initTilt() {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        if (!window.VanillaTilt) return;
+        VanillaTilt.init(document.querySelectorAll(".tilt"), {
+          max: 6,
+          speed: 700,
+          glare: true,
+          "max-glare": 0.15,
+          scale: 1.02
+        });
+      }
+
+      function createFloatingHearts() {
+        const layer = document.getElementById("heartsLayer");
+        if (!layer) return;
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+
+        const heartChars = ["❤", "❥", "♥", "💗"];
+        const count = 22;
+
+        for (let i = 0; i < count; i++) {
+          const el = document.createElement("div");
+          el.className = "heart-float select-none";
+          el.textContent = heartChars[Math.floor(Math.random() * heartChars.length)];
+
+          el.style.left = (Math.random() * 100) + "vw";
+          el.style.bottom = (-10 - Math.random() * 35) + "vh";
+          el.style.fontSize = (14 + Math.random() * 28) + "px";
+          el.style.animationDuration = (12 + Math.random() * 18) + "s";
+          el.style.animationDelay = (Math.random() * 10) + "s";
+
+          layer.appendChild(el);
+        }
+      }
+
+      function addBlobs() {
+        const wrap = document.createElement("div");
+        wrap.setAttribute("aria-hidden", "true");
+        wrap.className = "pointer-events-none fixed inset-0 z-0 overflow-hidden";
+        wrap.innerHTML = `
+          <div class="blob" style="width:540px;height:540px;left:-160px;top:60px;background:rgba(251,113,133,0.9)"></div>
+          <div class="blob" style="width:600px;height:600px;right:-210px;top:140px;background:rgba(99,102,241,0.9);animation-duration:18s"></div>
+          <div class="blob" style="width:480px;height:480px;left:20%;bottom:-160px;background:rgba(34,211,238,0.8);animation-duration:20s"></div>
+        `;
+        document.body.prepend(wrap);
+      }
+
+      // =======================
+      // Tap logic (3 taps CONTINUOUSLY)
+      // =======================
+      const TAP_COUNT = 3;
+      const GAP_MS = 450;
+      const POPUP_COOLDOWN_MS = 1600;
+
+      let tapCount = 0;
+      let lastTapAt = 0;
+      let lastTriggeredAt = 0;
+      let lastTapPoint = { x: window.innerWidth / 2, y: window.innerHeight / 2 };
+
+      function clamp(n, min, max) { return Math.max(min, Math.min(max, n)); }
+
+      function spawnTapHeart(x, y) {
+        const el = document.createElement("div");
+        el.className = "tap-heart";
+        el.textContent = ["❤", "💗", "✨", "❥"][Math.floor(Math.random() * 4)];
+        el.style.left = x + "px";
+        el.style.top = y + "px";
+        document.body.appendChild(el);
+
+        const dx = (Math.random() - 0.5) * 120;
+        const dy = -80 - Math.random() * 90;
+        const rot = (Math.random() - 0.5) * 50;
+        const sc = 0.9 + Math.random() * 0.6;
+
+        gsap.set(el, { opacity: 0, scale: 0.6 });
+        gsap.to(el, { opacity: 1, duration: 0.08 });
+        gsap.to(el, {
+          x: dx,
+          y: dy,
+          rotation: rot,
+          scale: sc,
+          opacity: 0,
+          duration: 0.95,
+          ease: "power2.out",
+          onComplete: () => el.remove()
+        });
+      }
+
+      function heartBurst(x, y, count) {
+        if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+        for (let i = 0; i < count; i++) setTimeout(() => spawnTapHeart(x, y), i * 18);
+      }
+
+      function showTapRing(x, y) {
+        const ring = document.getElementById("tapRing");
+        if (!ring) return;
+
+        gsap.killTweensOf(ring);
+        gsap.set(ring, { left: x, top: y, opacity: 0, width: 18, height: 18 });
+        gsap.to(ring, { opacity: 1, duration: 0.08, ease: "power1.out" });
+        gsap.to(ring, { width: 170, height: 170, opacity: 0, duration: 0.7, ease: "power2.out" });
+      }
+
+      function showPopupAtPoint(x, y) {
+        const now = Date.now();
+        if (now - lastTriggeredAt < POPUP_COOLDOWN_MS) return;
+        lastTriggeredAt = now;
+
+        const popup = document.getElementById("lovePopup");
+        if (!popup) return;
+
+        popup.style.opacity = "0";
+        popup.style.left = "0px";
+        popup.style.top = "0px";
+        popup.style.transform = "translate(-50%, -115%)";
+        popup.style.display = "block";
+
+        const rect = popup.getBoundingClientRect();
+        const pad = 14;
+
+        const safeX = clamp(x, rect.width / 2 + pad, window.innerWidth - rect.width / 2 - pad);
+
+        const wouldOverflowTop = (y - rect.height) < pad;
+        let safeY = y;
+
+        if (wouldOverflowTop) {
+          popup.style.transform = "translate(-50%, 18%)";
+          safeY = clamp(y, pad, window.innerHeight - rect.height - pad);
+        } else {
+          popup.style.transform = "translate(-50%, -115%)";
+          safeY = clamp(y, rect.height + pad, window.innerHeight - pad);
+        }
+
+        gsap.killTweensOf(popup);
+        gsap.set(popup, { left: safeX, top: safeY, opacity: 0, y: 10, scale: 0.98 });
+
+        try { if (navigator.vibrate) navigator.vibrate(25); } catch {}
+
+        gsap.to(popup, { opacity: 1, y: 0, scale: 1, duration: 0.22, ease: "power2.out" });
+        gsap.to(popup, { opacity: 0, y: 10, scale: 0.98, duration: 0.32, ease: "power2.in", delay: 2.0 });
+
+        showTapRing(x, y);
+        heartBurst(x, y, 16);
+      }
+
+      function registerTap(x, y) {
+        const now = Date.now();
+        if (tapCount > 0 && (now - lastTapAt) > GAP_MS) tapCount = 0;
+
+        tapCount += 1;
+        lastTapAt = now;
+        lastTapPoint = { x, y };
+
+        if (tapCount >= TAP_COUNT) {
+          tapCount = 0;
+          showPopupAtPoint(lastTapPoint.x, lastTapPoint.y);
+        }
+      }
+
+      function getPointFromEvent(e) {
+        const t = e.touches && e.touches[0] ? e.touches[0] : null;
+        return {
+          x: (t ? t.clientX : e.clientX) ?? window.innerWidth / 2,
+          y: (t ? t.clientY : e.clientY) ?? window.innerHeight / 2
+        };
+      }
+
+      function handlePointer(e) {
+        const p = getPointFromEvent(e);
+        registerTap(p.x, p.y);
+        spawnTapHeart(p.x, p.y);
+        showTapRing(p.x, p.y);
+      }
+
+      // Init
+      addBlobs();
+      initAOS();
+      initGSAP();
+      initTilt();
+      createFloatingHearts();
+
+      tick();
+      setInterval(tick, 1000);
+
+      window.addEventListener("pointerdown", handlePointer, { passive: true });
+      window.addEventListener("touchstart", handlePointer, { passive: true });
+    </script>
+  </body>
+</html>
